@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #grandParent {
+            padding: 10px;
+            border: 2px solid;
+            height: 500px;
+            width: 500px;
+        }
+
+        #parent {
+            padding: 10px;
+            border: 2px solid;
+            height: 400px;
+            width: 400px;
+        }
+
+        #child {
+            padding: 10px;
+            border: 2px solid;
+            height: 300px;
+            width: 300px;
+        }
+    </style>
+</head>
+
+
+<body>
+    <!-- Event bubbling & capturing -->
+    <div id="grandParent">
+        Grand Parent()
+        <div id="parent">
+            Parent()
+            <div id="child">
+                Child()
+            </div>
+        </div>
+    </div>
+    <div id="categaries">
+        <ul>
+            <li id="phones">phone</li>
+            <li id="laptops">laptops</li>
+            <li id="Electronics">Electronics</li>
+        </ul>
+    </div>
+    <from id="from">
+        <input type="text" name="name" data-uppercase />
+        <input type="text" name="email" />
+        <input type="text" name="password" data-uppercase />
+    </from>
+</body>
+<script src="./EventDelegation.js"></script>
+
+</html>
