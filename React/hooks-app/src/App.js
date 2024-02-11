@@ -9,11 +9,13 @@ import './App.css';
 // import UseCallback from './Components/UseCallback';
 // import UseCustome from './Components/useCustome';
 import FormExample from "./Components/ProblemSlovingQuestions/Form"
+import ListExample from "./Components/ProblemSlovingQuestions/ListSwap"
+import ThemExample from "./Components/ProblemSlovingQuestions/Theme"
 
 function App() {
   return (
-    <div className="App">
-      <FormExample />
+    <div className="App1">
+      <ThemExample />
     </div>
   );
 }
