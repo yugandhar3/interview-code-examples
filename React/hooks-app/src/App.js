@@ -11,11 +11,12 @@ import './App.css';
 import FormExample from "./Components/ProblemSlovingQuestions/Form"
 import ListExample from "./Components/ProblemSlovingQuestions/ListSwap"
 import ThemExample from "./Components/ProblemSlovingQuestions/Theme"
+import ImageCarousal from "./Components/ProblemSlovingQuestions/ImageCarousal"
 
 function App() {
   return (
     <div className="App1">
-      <ThemExample />
+      <ImageCarousal />
     </div>
   );
 }
